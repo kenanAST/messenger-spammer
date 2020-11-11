@@ -25,7 +25,7 @@ password.submit()
 
 search = driver.find_element_by_xpath(search_xpath)
 search.send_keys(details.receiver_name)
-time.sleep(0.5)
+time.sleep(1)
 receiver = driver.find_element_by_xpath(receiver_xpath)
 receiver.click()
 
